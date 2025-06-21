@@ -34,7 +34,7 @@
       },
       "YTPROXY_URL": {
         "description": "YT Proxy Server Endpoint",
-        "value": "https://tubed.okflix.top",
+        "value": "https://tgapi.xbitcode.com",
         "required": true
       },
       "OWNER_ID": {
