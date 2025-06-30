@@ -40,7 +40,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/coderashuop/music.git",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Anon")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
@@ -50,7 +50,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/saykkunomusic")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
-ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  6400))
+ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  6200))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
